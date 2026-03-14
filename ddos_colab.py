@@ -290,7 +290,6 @@ y.value_counts()
 
 y.value_counts(normalize=True)*100
 
-!pip install imbalanced-learn
 
 smote = SMOTE(random_state=42)
 
