@@ -31,7 +31,7 @@ Certaines conditions s'appliquent.
 Tous les utilisateurs ont accès aux LLM les plus populaires via la bibliothèque Python <code>google-colab-ai</code>, et les utilisateurs payants ont accès à une plus large sélection de modèles. Pour en savoir plus, consultez <a href="https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/Getting_started_with_google_colab_ai.ipynb">Premiers pas avec l'IA Google Colab</a>.
 """
 
-from google.colab import ai
+# from google.colab import ai
 response = ai.generate_text("What is the capital of France?")
 
 """## Découvrir l'API Gemini
